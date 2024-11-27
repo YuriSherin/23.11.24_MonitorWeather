@@ -66,7 +66,14 @@ class Window(tk.Tk):
         self.combo_often = ttk.Combobox(width=14, values=combo_lst, textvariable=self.__message_combo, justify="center",  state='readonly')
         self.combo_often.grid(row=2, column=2, padx=5, pady=2, sticky='w')
         self.combo_often.bind("<<ComboboxSelected>>", self.select_combo_box)
-
+        # установка времени в combo_often из словаря info
+        select_time = self.info['select_time']
+        index = -1
+        for item in combo_lst:
+            index += 1
+            if item == select_time:
+                break
+        self.combo_often.current(index)
 
         # 3 строки - резерв
         self.lbl_empty_1 = tk.Label(text='', height=1).grid(row=3, column=0)

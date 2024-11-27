@@ -3,7 +3,7 @@
     "url": "https://www.gismeteo.ru/weather-leninsk-kuznetsky-11835/now/",
     "path": "D:\\SQLite\\Weather\\",
     "sity": "leninsk_kuznetsky",
-    "select_time": "1 час. 30 мин.",
+    "select_time": "1 час. 00 мин.",
     "name_bd": "bd_leninsk_kuznetsky_2024.sqlite3",
     "fullname_bd": "C:\\Users\\yuris\\Downloads\\Telegram Desktop\\bd_leninsk_kuznetsky_2024.sqlite3",
     "is_job": 0,
