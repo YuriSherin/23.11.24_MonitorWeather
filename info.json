@@ -1,3 +1,11 @@
 {
-    "wnd_geom": "700x270+724+416"
+    "wnd_geom": "586x222+618+389",
+    "url": "https://www.gismeteo.ru/weather-leninsk-kuznetsky-11835/now/",
+    "path": "D:\\SQLite\\Weather\\",
+    "sity": "leninsk_kuznetsky",
+    "select_time": "1 час. 30 мин.",
+    "name_bd": "bd_leninsk_kuznetsky_2024.sqlite3",
+    "fullname_bd": "C:\\Users\\yuris\\Downloads\\Telegram Desktop\\bd_leninsk_kuznetsky_2024.sqlite3",
+    "is_job": 0,
+    "how_often": 1
 }
